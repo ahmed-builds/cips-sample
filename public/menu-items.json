@@ -1,0 +1,57 @@
+[
+    {
+        "label": "Home",
+        "link": "/",
+        "submenu": null
+    },
+    {
+        "label": "About",
+        "link": "/#about",
+        "submenu": [
+            {
+                "label": "Who we are",
+                "link": "/about/who-we-are"
+            },
+            {
+                "label": "Our Team",
+                "link": "/about/our-team"
+            },
+            {
+                "label": "Leadership",
+                "link": "/about/leadership"
+            },
+            {
+                "label": "Organogram",
+                "link": "/about/organogram"
+            },
+            {
+                "label": "Annual Reports",
+                "link": "/about/annual-reports"
+            }
+        ]
+    },
+    {
+        "label": "Awards",
+        "link": "/#awards",
+        "submenu": [
+            {
+                "label": "Awards - 2023",
+                "link": "/awards/2023"
+            },
+            {
+                "label": "Awards - 2024",
+                "link": "/awards/2024"
+            }
+        ]
+    },
+    {
+        "label": "Replications",
+        "link": "/replications",
+        "submenu": null
+    },
+    {
+        "label": "Collaborations",
+        "link": "/collaborations",
+        "submenu": null
+    }
+]

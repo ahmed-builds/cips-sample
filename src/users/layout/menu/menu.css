@@ -1,0 +1,109 @@
+@media (width > 1019px) {
+  .closeMobileMenu {
+    display: none;
+  }
+  nav {
+    display: block;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav li a {
+    display: block;
+    padding: 1rem;
+  }
+  nav li:has(> ul) a::after {
+    content: "\f285";
+    font-family: "bootstrap-icons";
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  nav li ul {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    position: absolute;
+    flex-direction: column;
+    min-width: 200px;
+  }
+  nav li ul li a::after {
+    content: "";
+  }
+  nav li:hover ul {
+    display: flex;
+  }
+  nav li:hover a::after {
+    transform: rotate(90deg); /* Rotate the arrow */
+  }
+}
+@media (width <= 1019px) {
+  .closeMobileMenu {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  nav.open {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  nav ul li a {
+    display: block;
+    padding: 1rem;
+  }
+  nav ul li:has(> ul) a::after {
+    content: "\f285";
+    font-family: "bootstrap-icons";
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  nav ul li ul {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    flex-direction: column;
+    margin: 0;
+  }
+  nav ul li li a {
+    display: block;
+    padding-left: 1rem;
+  }
+  nav ul li li a::before {
+    content: "\f285";
+    font-family: "bootstrap-icons";
+    font-size: 0.7rem;
+    margin: 0 1rem 0 0;
+  }
+  nav ul li li a::after {
+    content: "";
+  }
+  nav ul li:hover ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul li:hover a::after {
+    transform: rotate(90deg); /* Rotate the arrow */
+  }
+}
+
+/*# sourceMappingURL=menu.css.map */
