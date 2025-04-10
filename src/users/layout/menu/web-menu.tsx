@@ -65,7 +65,7 @@ export default function WebMenu() {
                     className="bg-red-700 size-20 closeMobileMenu hover:cursor-pointer hover:bg-red-900 hover:transition-all hover:duration-700 hover:ease-in-out p-4 text-2xl" title="Close Menu">
                     <i className="bi bi-x-lg"></i>
                 </button>
-                <ul className="container">
+                <ul className="w-11/12 m-auto">
                     <li>
                         <Link to="/"
                             className={`hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out ${(location.pathname === '/') ? 'bg-red-800': ''}`}

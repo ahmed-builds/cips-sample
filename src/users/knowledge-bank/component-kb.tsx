@@ -34,7 +34,7 @@ const kbArray = [
 
 export default function ComponentKnowledgeBank() {
     return (
-        <div className="container flex flex-col flex-wrap justify-center align-middle transition-all duration-1000 ease-in-out">
+        <div className="w-11/12 m-auto flex flex-col flex-wrap justify-center align-middle transition-all duration-1000 ease-in-out">
             <div className="text-center text-4xl font-bold mb-12">Some fun facts about us</div>
             <div className="flex flex-row flex-wrap justify-center align-middle">
                 {

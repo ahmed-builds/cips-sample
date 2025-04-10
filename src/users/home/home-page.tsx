@@ -74,7 +74,7 @@ export default function HomePage() {
           <ComponentAwards />
         </section>
         <section id="reach" className="py-15 min-h-150 flex flex-row">
-          <div className="container flex flex-col w-full">
+          <div className="w-11/12 m-auto flex flex-col w-full">
 
             <div className="text-center text-4xl font-bold mb-5 transition-all duration-1000 ease-in-out">Reach Us</div>
 

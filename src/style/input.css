@@ -1,8 +1,5 @@
 @import "tailwindcss";
-@utility container {
-    max-width: calc(11/12* 100%);
-    margin: auto;
-}
+
 @theme {
     --breakpoint-xs: 10rem;
 }

@@ -11,7 +11,7 @@ const awardImages = [
 
 export default function ComponentAwards() {
     return (
-        <div className="container transition-all duration-1000 ease-in-out">
+        <div className="w-11/12 m-auto transition-all duration-1000 ease-in-out">
             <div className="text-center text-4xl font-bold mb-5 transition-all duration-1000 ease-in-out">CIPS Awarding Innovations</div>
             <div className="flex xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-col-reverse xl:flex-row 2xl:flex-row gap-5">
                 <div className="flex flex-col justify-center text-lg leading-8 xs:text-center sm:text-center md:text-center lg:text-center xl:text-justify 2xl:text-justify xs:w-full sm:w-full md:w-full lg:w-full xl:w-1/3 2xl:w-1/3">

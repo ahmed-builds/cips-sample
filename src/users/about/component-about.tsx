@@ -4,7 +4,7 @@ import { Outlet, useParams } from "react-router-dom";
 
 export function AboutPageComponent() {
     return (
-        <div className="container flex xs:flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center align-middle py-4 transition-all duration-1000 ease-in-out gap-4">
+        <div className="w-11/12 m-auto flex xs:flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center align-middle py-4 transition-all duration-1000 ease-in-out gap-4">
             <div className="xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 2xl:w-1/2 xs:mb-4 sm:mb-4 md:mb-4 transition-all duration-1000 ease-in-out">
                 <img src={`${process.env.PUBLIC_URL}/images/CIPS-Building.jpg`} alt="CIPS Office" className="object-center object-cover w-full h-auto" width='100%' height='100%'/>
             </div>

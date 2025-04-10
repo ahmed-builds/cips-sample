@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { reducerToggleButton } from "../menu/menu-slicer";
+import '../menu/menu.css';
 
 export default function WebHeader() {
     
@@ -11,7 +12,7 @@ export default function WebHeader() {
 
     return (
         <>
-            <div id="brand" className="container mb-2 min-h-25 flex xs:flex-row sm:flex-row md:flex-row lg:flex-row xl:flex-row 2xl:flex-row xs:gap-3 sm:gap-3 md:gap-3 lg:gap-3 xl:gap-3 2xl-gap-3">
+            <div id="brand" className="w-11/12 m-auto mb-2 min-h-25 flex xs:flex-row sm:flex-row md:flex-row lg:flex-row xl:flex-row 2xl:flex-row xs:gap-3 sm:gap-3 md:gap-3 lg:gap-3 xl:gap-3 2xl-gap-3">
 
                 <div id="siteIdentity" className="flex xs:flex-col sm:flex-row md:flex-row lg:flex-row 2xl:flex-row xs:w-10/12 sm:w-10/12 md:w-10/12 lg:w-3/4 2xl:w-1/2 gap-2 justify-center align-middle">
                     <div id="siteLogo" className="flex flex-col justify-center min-w-20">

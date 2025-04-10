@@ -30,7 +30,7 @@ export default function ComponentLeaderShip() {
     return (
         <div className="flex flex-col justify-center align-middle transition-all duration-1000 ease-in-out">
             <div className="text-center text-4xl font-bold mb-5 transition-all duration-1000 ease-in-out">Leadership</div>
-            <div className="container flex xs:flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center align-middle gap-5 transition-all duration-1000 ease-in-out">
+            <div className="w-11/12 m-auto flex xs:flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center align-middle gap-5 transition-all duration-1000 ease-in-out">
 
                 {
                     leadershipArray.map((leader, index) => (
