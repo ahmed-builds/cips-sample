@@ -56,6 +56,10 @@ export default function WebMenu() {
         dispatch(reducerToggleButton(''));
     }
 
+    const preventDefault = (event: React.MouseEvent) => {
+        event.preventDefault();
+    }
+
 
     return (
         <>
@@ -78,7 +82,7 @@ export default function WebMenu() {
                         className="hover:[&>*]:block">
                         <Link to="/#about"
                             className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out"
-                            onClick={closeMenu}
+                            onClick={preventDefault}
                         >
                             About
                         </Link>
@@ -115,7 +119,7 @@ export default function WebMenu() {
                         className="hover:[&>*]:block">
                         <Link to="/#awards"
                             className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out"
-                            onClick={closeMenu}>
+                            onClick={preventDefault}>
                             Awarding Innovations
                         </Link>
                         <ul
@@ -137,7 +141,7 @@ export default function WebMenu() {
                         <ul className="bg-red-600 [&>*]:hover:hover:bg-red-800 [&>*]:hover:transition-all [&>*]:hover:duration-700 [&>*]:hover:ease-in-out z-99">
                             <li>
                                 <Link to="/knowledge-bank/innovative-practices"
-                                    onClick={closeMenu}>
+                                    onClick={preventDefault}>
                                     Innovative Practices
                                 </Link>
                             </li>
@@ -158,7 +162,7 @@ export default function WebMenu() {
 
                     <li className="hover:[&>*]:block">
                         <Link to="/#projects"
-                            className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out" onClick={closeMenu}>
+                            className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out" onClick={preventDefault}>
                             Projects
                         </Link>
                         <ul
