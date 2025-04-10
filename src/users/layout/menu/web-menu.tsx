@@ -81,7 +81,7 @@ export default function WebMenu() {
                     <li
                         className="hover:[&>*]:block">
                         <Link to="/#about"
-                            className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out"
+                            className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out focus:bg-red-800 focus-within:bg-red-800 focus-visible:bg-red-800"
                             onClick={preventDefault}
                         >
                             About
@@ -118,7 +118,7 @@ export default function WebMenu() {
                     <li
                         className="hover:[&>*]:block">
                         <Link to="/#awards"
-                            className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out"
+                            className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out focus:bg-red-800 focus-within:bg-red-800 focus-visible:bg-red-800"
                             onClick={preventDefault}>
                             Awarding Innovations
                         </Link>
@@ -137,11 +137,11 @@ export default function WebMenu() {
                         </ul>
                     </li>
                     <li className="hover:[&>*]:block">
-                        <Link to="/#kb" className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out" onClick={closeMenu}>Knowledge Bank</Link>
+                        <Link to="/#kb" className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out focus:bg-red-800 focus-within:bg-red-800 focus-visible:bg-red-800" onClick={preventDefault}>Knowledge Bank</Link>
                         <ul className="bg-red-600 [&>*]:hover:hover:bg-red-800 [&>*]:hover:transition-all [&>*]:hover:duration-700 [&>*]:hover:ease-in-out z-99">
                             <li>
                                 <Link to="/knowledge-bank/innovative-practices"
-                                    onClick={preventDefault}>
+                                    onClick={closeMenu}>
                                     Innovative Practices
                                 </Link>
                             </li>
@@ -162,7 +162,7 @@ export default function WebMenu() {
 
                     <li className="hover:[&>*]:block">
                         <Link to="/#projects"
-                            className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out" onClick={preventDefault}>
+                            className="hover:bg-red-800 hover:transition-all hover:duration-700 hover:ease-in-out focus:bg-red-800 focus-within:bg-red-800 focus-visible:bg-red-800" onClick={preventDefault}>
                             Projects
                         </Link>
                         <ul
